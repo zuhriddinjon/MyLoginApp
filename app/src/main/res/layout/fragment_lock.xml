@@ -15,7 +15,7 @@
         android:background="#51559f"
         android:divider="@color/black"
         android:orientation="vertical"
-        android:padding="24dp"
+        android:padding="8dp"
         android:showDividers="beginning">
 
         <LinearLayout
