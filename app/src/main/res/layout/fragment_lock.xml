@@ -22,7 +22,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="24dp">
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn1"
@@ -59,7 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="24dp">
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn4"
@@ -96,7 +98,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="24dp">
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn7"
@@ -133,7 +136,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="24dp">
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_space"
@@ -219,6 +223,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="30dp"
         android:text="Ввведите пароль"
+        android:textSize="24sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white" />
 
