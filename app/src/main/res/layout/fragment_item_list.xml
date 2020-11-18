@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/shape_aval"
+    android:backgroundTint="#656ac8"
+    android:orientation="vertical"
+    app:divider="@color/black"
+    app:showDividers="middle">
+
+    <TextView
+        android:id="@+id/tv_pr"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/text_margin"
+        android:gravity="center"
+        android:text="Выберите профиль"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:context=".ItemFragment"
+        tools:listitem="@layout/fragment_item" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--    #656ac8-->
